@@ -38,6 +38,7 @@ passenger_count = st.slider('Number of Passengers: ', min_value=1, max_value=8, 
 
 url = 'https://taxifare-api-dsvsmf3mja-de.a.run.app/predict'
 
+lewag_url = 'https://taxifare.lewagon.ai/predict'
 
 params = {"pickup_datetime": pickup_datetime,
           "pickup_longitude": pickup_longitude,
